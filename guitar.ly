@@ -10,7 +10,7 @@
 #(set-global-staff-size 22)
 
 % Set the tuning of the lute-family instrument.
-tuning = \stringTuning <d g b e'>
+tuning = \stringTuning <e, a, d g b e'>
 
 % The parameters used by a piece.
 piece-title = "The Title"
@@ -46,7 +46,7 @@ chord = \chordmode {
 % Record the melody of a piece.
 melody = {
     % Write your melody here.
-    d4 g b e' <d g b e'>1
+    e,4 a, d g b e' <e, a, d g b e'>2
     \bar "|."
 }
 

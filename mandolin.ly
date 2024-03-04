@@ -10,14 +10,14 @@
 #(set-global-staff-size 22)
 
 % Set the tuning of the lute-family instrument.
-tuning = \stringTuning <d g b e'>
+tuning = \stringTuning <g d' a' e''>
 
 % The parameters used by a piece.
 piece-title = "The Title"
 piece-composer = "The Composer"
 piece-parameter = {
     % Set the clef.
-    \clef "G_8"
+    \clef treble
     % Set the key signature.
     \key c \major
     % Set the time signature.
@@ -46,7 +46,7 @@ chord = \chordmode {
 % Record the melody of a piece.
 melody = {
     % Write your melody here.
-    d4 g b e' <d g b e'>1
+    g4 d' a' e'' <g d' a' e''>1
     \bar "|."
 }
 
